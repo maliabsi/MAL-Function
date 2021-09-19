@@ -1,0 +1,53 @@
+body{
+  font-family: sans-serif;
+  background-image: url("background.jpg")
+}
+h1{
+  color: white
+  text-align: center;
+}
+h1.header{
+  margin: 0px auto;
+  text-align: center;
+  display:block;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+table {
+  border: 0;
+  border-spacing: 0;
+  width: 35%;
+}
+th,td{
+  text-align: center;
+  padding: 12px;
+}
+
+tr:nth-child(odd) {
+      background: lightpink;
+    }
+
+tr:nth-child(even) {
+    background-color: lightblue;
+  }
+a.hover:hover {
+    color: yellow;
+  }
+  span{
+    color: red;
+    font-weight: bold;
+  }
+
+.quote{
+  position: absolute;
+  right: -8;
+  text-align: center;
+  width: 100%;
+  background-color: lightblue;
+  color: white;
+  padding: 4px;
+}
